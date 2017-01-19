@@ -35,9 +35,7 @@
           <% end %>
         </p>
 
-        <% if !@article.image.blank? %>
-          <p><%= image_tag @article.image.url %></p>
-        <% end %>
+        <p>[IMAGE PLACEHOLDER BECAUSE HEROKU DOES NOT SUPPORT UPLOADED IMAGE]</p>
 
         <p><%= @article.body %></p>
       </div>
