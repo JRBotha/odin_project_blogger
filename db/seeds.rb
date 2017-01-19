@@ -9,5 +9,5 @@
 user = Author.new
 user.username = 'admin'
 user.email = 'admin@example.com'
-user.encrypted_password = 'password'
+user.crypted_password = 'password'
 user.save!
